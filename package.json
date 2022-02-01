@@ -27,6 +27,7 @@
     "webpack-dev-server": "^4.7.3"
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
     "file-loader": "^6.2.0"
   }
 }
