@@ -1,0 +1,7 @@
+.idea
+node_modules
+dist
+build
+gh-pages/
+
+*.d.ts
