@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'IM_Hyemin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IM_Hyemin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Regular.woff2') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    font-size: 26px;
+}
+
+li::marker {
+    color: red;
+    font-size: 1.5em;
+}
+
+@media (max-width: 1400px) {
+    html {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+body {
+    font-family: IM_Hyemin;
+    line-height: 1.7;
+    padding: 1.2rem;
+    margin: 0;
+    color: #333;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 50rem;
+    margin: auto;
+}
+

@@ -14,6 +14,8 @@
   "license": "MIT",
   "dependencies": {
     "@tsconfig/node14": "^1.0.1",
+    "common-igrid": "^1.0.7",
+    "common-iutils": "^1.0.8",
     "css-loader": "^6.5.1",
     "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.5.0",
@@ -27,6 +29,7 @@
     "webpack-dev-server": "^4.7.3"
   },
   "devDependencies": {
+    "@types/marked": "^4.0.2",
     "copy-webpack-plugin": "^10.2.4",
     "file-loader": "^6.2.0"
   }

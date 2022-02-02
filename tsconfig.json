@@ -9,7 +9,8 @@
     "rootDir": "./",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "typeRoots" : ["node_modules/@types", "src/types"]
   },
   "exclude": [
     "node_modules"
