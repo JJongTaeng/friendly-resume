@@ -25,6 +25,10 @@ export default class Image {
       .cursor('pointer')
       .getElement();
 
+    if(this.name === 'email') {
+      $image.setAttribute('href', `mailto: ${this.link}`);
+    }
+
     return $image;
   }
 }

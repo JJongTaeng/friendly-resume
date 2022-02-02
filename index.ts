@@ -46,12 +46,12 @@ const span = {
       .backgroundSize('contain')
       .backgroundRepeat('no-repeat')
       .backgroundImage(`url('${profile}')`)
-      .getElement()
+      .getElement(),
   })
 
   const $aboutMe = new Column({
     span: span.project,
-    children: new AboutMe({ content: data.aboutMe }).render()
+    children: new AboutMe({ content: data.aboutMe }).render(),
   })
 
   const $experienceTitle = new Column({
