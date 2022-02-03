@@ -22,9 +22,9 @@
           "description": "Remote View 서비스의 사용할 수 없는 환경에서 사용하기 위해 장치인 Box의 관리자 페이지를 구성했습니다.",
           "link": "https://content.rview.com/ko/",
           "myRole": [
-            "아직 진행중인 프로젝트~!",
-            "아직 진행중인 프로젝트~!",
-            "아직 진행중인 프로젝트~!"
+            "웹페이지에서 DHCP, Static, Wi-Fi 설정하는 페이지 작업",
+            "Remote View Client(원격) 장비 등록 페이지 작업",
+            "React, TypeScript, Recoil"
           ]
         }
       ]
@@ -39,7 +39,8 @@
           "myRole": [
             "실시간으로 데이터를 차트와 흐름도로 시각화하였습니다.",
             "백엔드를 스프링 프레임워크를 사용하여 직접 구현하였습니다.",
-            "장치의 운전 및 정지 제어 명령 기능을 구현하였습니다."
+            "장치의 운전 및 정지 제어 명령 기능을 구현하였습니다.",
+            "React, Ant Design, TypeScript"
           ]
         }
       ]
@@ -47,12 +48,37 @@
   ],
   "otherExperience": [
     {
+      "title": "Intesign",
+      "period": "2021.12.15 ~ ",
+      "link": "https://jjongtaeng.github.io/intesign/",
+      "description": [
+        "React에서 사용하던 디자인 라이브러리를 다른 환경에서 사용할 수 있게 Vanilla JS 디자인 라이브러리로 제작",
+        "webcomponents API를 사용하여 구현"
+      ]
+    },
+    {
       "title": "Webdow10",
       "period": "2021.09.01 ~ 2021.09.11",
       "link": "https://webdow10.herokuapp.com/",
       "description": [
         "윈도우 테마의 UI/UX를 웹으로 표현한 사이트",
         "webcomponents API를 사용하여 구현"
+      ]
+    },
+    {
+      "title": "3D-Toy-Web",
+      "period": "2021.11.01 ~ 2021.11.15",
+      "link": "https://toyweb3d.herokuapp.com/",
+      "description": [
+        "Three.js를 사용하여 3D 웹 구성",
+        "3D 환경에서의 인터랙티브 구현"
+      ]
+    },
+    {
+      "title": "호서대학교",
+      "period": "2014.02 ~ 2021.02",
+      "description": [
+        "정보보호학과 - 졸업"
       ]
     }
   ],
@@ -74,6 +100,14 @@
         "기본 타입, 이넘, 인터페이스, 제너릭, 클래스 등 기본적인 TypeScript를 구사합니다.",
         "유틸 타입(Pick, Omit, Patial)을 구사합니다.",
         "라이브러리를 사용함에 있어서 타입을 부여합니다."
+      ]
+    },
+    {
+      "title": "CSS",
+      "description": [
+        "원하는 UI를 만들 수 있고 CSS 박스 설계에 익숙합니다.",
+        "CSS 3D를 다루고 인터랙티브한 UI/UX를 구사합니다.",
+        "Sass와 같은 CSS 확장 언어를 사용합니다."
       ]
     }
   ]
