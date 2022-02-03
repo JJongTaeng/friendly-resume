@@ -5,7 +5,7 @@ import makeLink from "../common/makeLink";
 interface OtherExperienceType {
   title: string;
   period: string;
-  link: string;
+  link?: string;
   description: string[];
 }
 
@@ -23,7 +23,7 @@ export default class OtherExperience {
    const $row = new Row();
    const elementList = [];
    this.otherExperience.forEach(data => {
-     const $link = makeLink(data.link);
+     const $link = makeLink(data?.link);
      const $title = new Column({
        children: new IElement('h3').innerHTML(data.title + ($link ? $link.innerHTML : '')).getElement(),
        span: this.span
