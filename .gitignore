@@ -5,3 +5,6 @@ build
 gh-pages/
 
 *.d.ts
+
+!src/types/**
+!src/types/images.d.ts
