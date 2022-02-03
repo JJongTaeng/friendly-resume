@@ -8,9 +8,10 @@ JSON 기반의 이력서 페이지를 만들 수 있습니다.
 ## Usage
 1. `git clone https://github.com/JJongTaeng/friendly-resume.git` 로 프로젝트를 받아 자신의 레포지토리에 올리세요.
 2. 또는 fork를 해서 자신의 레포지토리에 저장하세요.
-3. 사용하는 IDE, 텍스트 에디터로 ./public/resume.json 파일을 열고, 해당 파일의 내용을 수정해주세요.
-4. 수정 후 `npm run deploy` 를 입력 후 실행하면 프로젝트가 배포됩니다.
-5. 링크는 `[자신의 github name].github.io/[레포지토리 이름]` 으로 배포됩니다. ex) https://jjongtaeng.github.io/friendly-resume
+3. `npm install`로 종속 모듈을 설치해주세요.
+4. 사용하는 IDE, 텍스트 에디터로 ./public/resume.json 파일을 열고, 해당 파일의 내용을 수정해주세요.
+5. 수정 후 `npm run deploy` 를 입력 후 실행하면 프로젝트가 배포됩니다.
+6. 링크는 `[자신의 github name].github.io/[레포지토리 이름]` 으로 배포됩니다. ex) https://jjongtaeng.github.io/friendly-resume
 
 ## Profile Photo
 1. public 폴더 내에 `profile.jpg` 파일 명으로 이미지를 넣으면 프로필 설정됩니다.
