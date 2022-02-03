@@ -34,11 +34,11 @@ JSON 기반의 이력서 페이지를 만들 수 있습니다.
     - `link`는 프로젝트의 URL이 있다면 넣어주세요**(optional)**
     - `myRole` 은 프로젝트에서 본인이 맡은 역활이 무엇인지 작성해주세요.
 - otherExperience는 경력외 다른 경험에 대해 작성해주세요 ex) 개인프로젝트, 졸업학교, 세미나 경험 등
-  - title은 otherExperience의 제목입니다.
-  - period는 기간입니다.
-  - link는 참고할 URL이 있다면 넣어주세요**(optional)**
-  - description은 다른 경험에 대한 설명입니다.
-- skills는 본인이 가진 기술적인 역량을 적어주세요.
-  - title은 기술적 역량의 제목입니다.
-  - description은 기술적 역량에 대한 설명입니다.
+  - `title`은 otherExperience의 제목입니다.
+  - `period`는 기간입니다.
+  - `link`는 참고할 URL이 있다면 넣어주세요**(optional)**
+  - `description`은 다른 경험에 대한 설명입니다.
+- `skills`는 본인이 가진 기술적인 역량을 적어주세요.
+  - `title`은 기술적 역량의 제목입니다.
+  - `description`은 기술적 역량에 대한 설명입니다.
 
