@@ -47,6 +47,13 @@ export default class OtherExperience {
        span: this.span
      })
 
+     $contentList.setStyle(`
+        li::marker {
+          color: dodgerblue;
+        }
+    `);
+
+
      elementList.push($title, $period, $contentList);
    });
 

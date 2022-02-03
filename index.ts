@@ -47,11 +47,13 @@ const span = {
       .backgroundRepeat('no-repeat')
       .backgroundImage(`url('${profile}')`)
       .getElement(),
+    padding: 20,
   })
 
   const $aboutMe = new Column({
     span: span.project,
     children: new AboutMe({ content: data.aboutMe }).render(),
+    padding: 20,
   })
 
   const $experienceTitle = new Column({

@@ -48,6 +48,12 @@ export default class Projects {
         span: this.span,
       });
 
+      $descriptionContent.setStyle(`
+        li::marker {
+          color: dodgerblue;
+        }
+      `);
+
       const $myRole = new Column({
         children: new IStyle(
           new IElement('span').setTextContent('My role').getElement()
@@ -65,6 +71,12 @@ export default class Projects {
         children: new IElement('ul').append(...roleList).getElement(),
         span: this.span,
       })
+
+      $myRoleContent.setStyle(`
+        li::marker {
+          color: dodgerblue;
+        }
+      `);
 
       elementList.push($projectName, $description, $descriptionContent, $myRole, $myRoleContent);
     })

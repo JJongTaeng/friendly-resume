@@ -39,6 +39,12 @@ export default class Skills {
         span: this.span
       });
 
+      $contentList.setStyle(`
+        li::marker {
+          color: dodgerblue;
+        }
+    `);
+
       elementList.push($title, $contentList);
     });
 
