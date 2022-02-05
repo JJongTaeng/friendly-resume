@@ -1,4 +1,4 @@
-import { Row } from "common-igrid";
+import { row, Row } from "common-igrid";
 import Item from "./Item";
 
 export interface WorkExperienceType {
@@ -20,7 +20,7 @@ export default class WorkExperience {
   }
 
   render() {
-    const $row = new Row();
+    const $row = row();
 
     const documentFragments = this.dataList.map(data => {
       return new Item({ data }).render();

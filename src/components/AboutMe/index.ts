@@ -1,5 +1,5 @@
 import { IElement } from "common-iutils";
-import { Column, Row } from "common-igrid";
+import { column, Column, row, Row } from "common-igrid";
 
 export default class AboutMe {
   private content: string;
@@ -10,14 +10,14 @@ export default class AboutMe {
   }
 
   render() {
-    const $row = new Row();
+    const $row = row();
 
-    const $aboutMeTitle = new Column({
+    const $aboutMeTitle = column({
       span: this.span,
       children: makeSubTitle('About me'),
     })
 
-    const $aboutMeColumn = new Column({
+    const $aboutMeColumn = column({
       span: this.span,
       children: new IElement('span')
         .setTextContent(this.content)

@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "@tsconfig/node14": "^1.0.1",
-    "common-igrid": "^1.0.10",
+    "common-igrid": "^1.0.11",
     "common-iutils": "^1.0.8",
     "css-loader": "^6.5.1",
     "gh-pages": "^3.2.3",

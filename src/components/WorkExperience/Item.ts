@@ -1,5 +1,5 @@
 import { WorkExperienceType } from "./index";
-import { Column, Row } from "common-igrid";
+import { column, Column, Row } from "common-igrid";
 import CompanyTitle from "./CompanyTitle";
 import Projects from "./Projects";
 
@@ -14,7 +14,7 @@ export default class Item {
   }
 
   render() {
-    const $title = new Column({
+    const $title = column({
       span: this.span.title,
       children: new CompanyTitle({
         title: this.data.company,
@@ -23,7 +23,7 @@ export default class Item {
         .render()
     });
 
-    const $projects = new Column({
+    const $projects = column({
       children: new Projects({ projects: this.data.projects }).render(),
       span: this.span.project,
     })

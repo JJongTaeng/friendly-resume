@@ -1,4 +1,4 @@
-import { Column, Row } from "common-igrid";
+import { column, row } from "common-igrid";
 import { IElement, IStyle } from "common-iutils";
 import List from "../common/List";
 
@@ -19,10 +19,9 @@ export default class Skills {
 
   render() {
 
-    const $row = new Row();
     const elementList = [];
     this.skills.forEach(skill => {
-      const $title = new Column({
+      const $title = column({
         children: new IStyle(new IElement('h3').setTextContent(skill.title).getElement())
           .marginBottom('0')
           .getElement(),
@@ -31,7 +30,7 @@ export default class Skills {
 
       const $contentItems = skill.description.map(description => new List(description).render());
 
-      const $contentList = new Column({
+      const $contentList = column({
         children: new IElement('ul')
           .append(...$contentItems)
           .getElement(),
@@ -47,6 +46,6 @@ export default class Skills {
       elementList.push($title, $contentList);
     });
 
-    return $row.setContent(...elementList);
+    return row().setContent(...elementList);
   }
 }

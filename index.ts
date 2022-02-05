@@ -1,6 +1,6 @@
 import './index.css';
 import data from './public/resume.json';
-import { Column, Row } from "common-igrid";
+import { column, Column, row, Row } from "common-igrid";
 import Title from "./src/components/Title";
 import Links from "./src/components/Links";
 import AboutMe from "./src/components/AboutMe";
@@ -24,20 +24,20 @@ const span = {
 
   const $container = document.querySelector('.container');
 
-  const $row = new Row();
+  const $row = row();
   $container.append($row);
 
-  const $titleColumn = new Column({
+  const $titleColumn = column({
     span: span.header,
     children: new Title({ title: data.title }).render()
   })
 
-  const $linkColumn = new Column({
+  const $linkColumn = column({
     span: span.link,
     children: new Links({ links: data.links }).render(),
   })
 
-  const $profile = new Column({
+  const $profile = column({
     span: span.title,
     children: new IStyle(new IElement('div').getElement())
       .height('100%')
@@ -50,39 +50,39 @@ const span = {
     padding: 20,
   })
 
-  const $aboutMe = new Column({
+  const $aboutMe = column({
     span: span.project,
     children: new AboutMe({ content: data.aboutMe }).render(),
     padding: 20,
   })
 
-  const $experienceTitle = new Column({
+  const $experienceTitle = column({
     span: span.all24,
     children: makeSubTitle('Work experience'),
 
   })
 
-  const $workExperienceList = new Column({
+  const $workExperienceList = column({
     span: span.all24,
     children: new WorkExperience({ dataList: data.workExperience }).render()
   })
 
-  const $otherExperienceTitle = new Column({
+  const $otherExperienceTitle = column({
     span: span.title,
     children: makeSubTitle('Other experience')
   })
 
-  const $otherExperienceList = new Column({
+  const $otherExperienceList = column({
     span: span.project,
     children: new OtherExperience({ otherExperience: data.otherExperience }).render()
   })
 
-  const $skillTitle = new Column({
+  const $skillTitle = column({
     span: span.title,
     children: makeSubTitle('My Skills'),
   })
 
-  const $skillContent = new Column({
+  const $skillContent = column({
     span: span.project,
     children: new Skills({ skills: data.skills }).render()
   })

@@ -1,4 +1,4 @@
-import { Column, Row } from "common-igrid";
+import { column, Column, row, Row } from "common-igrid";
 import { IElement, IStyle } from "common-iutils";
 import makeLink from "../common/makeLink";
 import List from "../common/List";
@@ -22,17 +22,17 @@ export default class Projects {
   }
 
   render() {
-    const $row = new Row();
+    const $row = row();
     const elementList = [];
 
     this.projects.forEach(project => {
       const $link = makeLink(project?.link);
-      const $projectName = new Column({
+      const $projectName = column({
         children: new IElement('h3').innerHTML(project.name + ($link ? $link.innerHTML : '')).getElement(),
         span: this.span,
       });
 
-      const $description = new Column({
+      const $description = column({
         children: new IStyle(
           new IElement('span').setTextContent('Description').getElement()
         )
@@ -40,7 +40,7 @@ export default class Projects {
           .getElement(),
         span: this.span,
       });
-      const $descriptionContent = new Column({
+      const $descriptionContent = column({
         children: new IElement('ul').appendChild(
           new IStyle(new IElement('li').setTextContent(project.description).getElement())
             .fontSize('0.8rem')
@@ -55,7 +55,7 @@ export default class Projects {
         }
       `);
 
-      const $myRole = new Column({
+      const $myRole = column({
         children: new IStyle(
           new IElement('span').setTextContent('My role').getElement()
         )
@@ -66,7 +66,7 @@ export default class Projects {
 
       const roleList = project.myRole.map(role => new List(role).render());
 
-      const $myRoleContent = new Column({
+      const $myRoleContent = column({
         children: new IElement('ul').append(...roleList).getElement(),
         span: this.span,
       })
