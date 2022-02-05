@@ -3,6 +3,7 @@ import { IElement } from "common-iutils";
 export default class CompanyTitle {
   private readonly title: string;
   private readonly period: string;
+
   constructor({ title, period }: { title: string, period: string }) {
     this.title = title;
     this.period = period;

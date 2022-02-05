@@ -6,6 +6,7 @@ export default class List {
   constructor(description: string) {
     this.description = description;
   }
+
   render() {
     return new IStyle(new IElement('li').setTextContent(this.description).getElement())
       .fontSize('0.8rem')

@@ -1,5 +1,5 @@
 import { WorkExperienceType } from "./index";
-import { column, Column, Row } from "common-igrid";
+import { column } from "common-igrid";
 import CompanyTitle from "./CompanyTitle";
 import Projects from "./Projects";
 
@@ -9,6 +9,7 @@ export default class Item {
     title: { xxl: 8, xl: 8, lg: 8, md: 10, sm: 12, xs: 24 },
     project: { xxl: 16, xl: 16, lg: 16, md: 14, sm: 12, xs: 24 },
   }
+
   constructor({ data }: { data: WorkExperienceType }) {
     this.data = data;
   }

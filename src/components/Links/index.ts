@@ -1,6 +1,6 @@
-import { Column, Row } from "common-igrid";
 import Image from './Image';
 import { IElement, IStyle } from "common-iutils";
+
 interface LinksInterface {
   render(): HTMLElement;
 }
@@ -24,7 +24,7 @@ export default class Links {
       .alignItems('center')
       .justifyContent('space-evenly')
       .getElement();
-    const $list = this.links.map((link) =>  new Image({ name: link.name, link: link.link }).render());
+    const $list = this.links.map((link) => new Image({ name: link.name, link: link.link }).render());
 
     $row.append(...$list);
 

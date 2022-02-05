@@ -1,5 +1,5 @@
 import { IElement } from "common-iutils";
-import { column, Column, row, Row } from "common-igrid";
+import { column, row } from "common-igrid";
 
 export default class AboutMe {
   private content: string;

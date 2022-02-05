@@ -1,4 +1,4 @@
-import { row, Row } from "common-igrid";
+import { row } from "common-igrid";
 import Item from "./Item";
 
 export interface WorkExperienceType {
@@ -12,9 +12,11 @@ interface ProjectType {
   description: string;
   myRole: string[];
 }
+
 export default class WorkExperience {
 
-  private readonly dataList:  WorkExperienceType[]
+  private readonly dataList: WorkExperienceType[]
+
   constructor({ dataList }: { dataList: WorkExperienceType[] }) {
     this.dataList = dataList;
   }
@@ -25,7 +27,7 @@ export default class WorkExperience {
     const documentFragments = this.dataList.map(data => {
       return new Item({ data }).render();
     })
-    const $columns =  Array.from(documentFragments, (element => element)) as [];
+    const $columns = Array.from(documentFragments, (element => element)) as [];
 
     return $row.setContent(...$columns);
   }

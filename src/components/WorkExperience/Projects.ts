@@ -1,4 +1,4 @@
-import { column, Column, row, Row } from "common-igrid";
+import { column, row } from "common-igrid";
 import { IElement, IStyle } from "common-iutils";
 import makeLink from "../common/makeLink";
 import List from "../common/List";

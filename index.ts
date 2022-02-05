@@ -1,6 +1,6 @@
 import './index.css';
 import data from './public/resume.json';
-import { column, Column, row, Row } from "common-igrid";
+import { column, row } from "common-igrid";
 import Title from "./src/components/Title";
 import Links from "./src/components/Links";
 import AboutMe from "./src/components/AboutMe";
