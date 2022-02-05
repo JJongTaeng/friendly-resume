@@ -1,6 +1,7 @@
 import { Column, Row } from "common-igrid";
 import { IElement, IStyle } from "common-iutils";
 import makeLink from "../common/makeLink";
+import List from "../common/List";
 
 interface ProjectsType {
   name: string;
@@ -63,9 +64,7 @@ export default class Projects {
         span: this.span,
       });
 
-      const roleList = project.myRole.map(role => new IStyle(new IElement('li').setTextContent(role).getElement())
-        .fontSize('0.8rem')
-        .getElement());
+      const roleList = project.myRole.map(role => new List(role).render());
 
       const $myRoleContent = new Column({
         children: new IElement('ul').append(...roleList).getElement(),

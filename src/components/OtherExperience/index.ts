@@ -1,6 +1,7 @@
 import { Column, Row } from "common-igrid";
 import { IElement, IStyle } from "common-iutils";
 import makeLink from "../common/makeLink";
+import List from "../common/List";
 
 interface OtherExperienceType {
   title: string;
@@ -36,9 +37,7 @@ export default class OtherExperience {
        span: this.span
      })
 
-     const $contentItems = data.description.map(description => new IStyle(new IElement('li').setTextContent(description).getElement())
-       .fontSize('0.8rem')
-       .getElement());
+     const $contentItems: HTMLElement[] = data.description.map(description => new List(description).render());
 
      const $contentList = new Column({
        children: new IElement('ul')

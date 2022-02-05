@@ -1,5 +1,6 @@
 import { Column, Row } from "common-igrid";
 import { IElement, IStyle } from "common-iutils";
+import List from "../common/List";
 
 interface SkillsType {
   title: string;
@@ -28,9 +29,7 @@ export default class Skills {
         span: this.span
       });
 
-      const $contentItems = skill.description.map(description => new IStyle(new IElement('li').setTextContent(description).getElement())
-        .fontSize('0.8rem')
-        .getElement());
+      const $contentItems = skill.description.map(description => new List(description).render());
 
       const $contentList = new Column({
         children: new IElement('ul')
