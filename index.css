@@ -33,6 +33,9 @@ li::marker {
     }
 }
 
+body {-ms-overflow-style:none; }
+body::-webkit-scrollbar { display:none; }
+
 body {
     font-family: IM_Hyemin;
     line-height: 1.7;

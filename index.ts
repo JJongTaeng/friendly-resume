@@ -9,6 +9,7 @@ import WorkExperience from "./src/components/WorkExperience";
 import OtherExperience from "./src/components/OtherExperience";
 import Skills from "./src/components/Skills";
 import profile from "./public/profile.jpg";
+import { Scroll } from "./src/components/Scroll";
 
 const span = {
   header: { xxl: 16, xl: 16, lg: 18, md: 16, sm: 12, xs: 24 },
@@ -20,6 +21,8 @@ const span = {
 };
 
 (() => {
+  new Scroll();
+
   document.head.querySelector('title').innerText = data.browserTitle;
 
   const $container = document.querySelector('.container');
