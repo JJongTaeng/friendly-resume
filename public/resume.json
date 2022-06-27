@@ -32,8 +32,8 @@
           "link": "https://www.rview.com",
           "myRole": [
             "WebConsole, WebViewer 유지보수 및 신규 기능 개발",
-            "MQTT 통신 기반 실시간 에이전트 상태 표시",
-            "MQTT 통신 기반 웹뷰어로 에이전트 실시간 키보드, 마우스 제어",
+            "웹콘솔에서 MQTT 통신 기반 실시간 에이전트 상태 표시",
+            "웹뷰어에서 MQTT 통신 기반 에이전트 실시간 키보드, 마우스 제어",
             "원격PC 영상 스트리밍을 위해 WebSocket 작업"
           ]
         }
