@@ -19,12 +19,22 @@
       "projects": [
         {
           "name": "RemoteView Box",
-          "description": "Remote View 서비스의 사용할 수 없는 환경에서 사용하기 위해 장치인 Box의 관리자 페이지를 구성했습니다.",
-          "link": "https://content.rview.com/ko/",
+          "description": "Remote View 서비스의 사용할 수 없는 환경에서 사용하기 위해 장치인 Box의 관리자 페이지를 구성했습니다. 에이전트를 등록하고, RView 서비스에서 이용합니다.",
           "myRole": [
-            "웹페이지에서 DHCP, Static, Wi-Fi 설정하는 페이지 작업",
-            "Remote View Client(원격) 장비 등록 페이지 작업",
-            "React, TypeScript, Recoil"
+            "Remote View Client(원격) 에이전트 등록 페이지 작업",
+            "접속 네트워크 정보(Wi-Fi, Ethernet) 설정 페이지 작업",
+            "React, TypeScript, Recoil, React-Query, CSS-in-JS, Storybook"
+          ]
+        },
+        {
+          "name": "RemoteView",
+          "description": "리모트뷰는 PC와 모바일(스마트폰) 등 기기들을 제어할 수 있는 원격제어 소프트웨어로 회사의 IT 기기 관리, 그룹관리, 재택근무 솔루션입니다.",
+          "link": "https://www.rview.com",
+          "myRole": [
+            "WebConsole, WebViewer 유지보수 및 신규 기능 개발",
+            "웹콘솔에서 MQTT 통신 기반 실시간 에이전트 상태 표시",
+            "웹뷰어에서 MQTT 통신 기반 에이전트 실시간 키보드, 마우스 제어",
+            "원격PC 영상 스트리밍을 위해 WebSocket 작업"
           ]
         }
       ]
