@@ -58,12 +58,21 @@
   ],
   "otherExperience": [
     {
+      "title": "Simple Meeting",
+      "period": "2022.06.25 ~ ",
+      "link": "https://meeting.jjongtaeng.com/",
+      "description": [
+        "화상 미팅 웹 어플리케이션",
+        "[Front 기술] WebRTC, SocketIO, React, TypeScript, Tailwind, Recoil",
+        "[Back 기술] NestJS, SocketIO, TypeORM, MariaDB"
+      ]
+    },
+    {
       "title": "Intesign",
       "period": "2021.12.15 ~ ",
       "link": "https://jjongtaeng.github.io/intesign/",
       "description": [
-        "React에서 사용하던 디자인 라이브러리를 다른 환경에서 사용할 수 있게 Vanilla JS 디자인 라이브러리로 제작",
-        "webcomponents API를 사용하여 구현"
+        "webcomponents API를 사용하여 React에서 사용하던 디자인 라이브러리를 Vanilla JS 디자인 라이브러리로 제작"
       ]
     },
     {
