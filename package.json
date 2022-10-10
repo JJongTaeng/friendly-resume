@@ -1,36 +1,51 @@
 {
   "name": "friendly-resume",
-  "description": "",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "predeploy": "webpack",
-    "deploy": "rm -rf ./node_modules/.cache/gh-pages && gh-pages --branch gh-pages -d build",
-    "start": "webpack serve --mode development"
-  },
-  "author": "JJongTaeng",
-  "license": "MIT",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "@tsconfig/node14": "^1.0.1",
-    "common-igrid": "^1.0.11",
-    "common-iutils": "^1.0.8",
-    "css-loader": "^6.5.1",
-    "gh-pages": "^3.2.3",
-    "html-webpack-plugin": "^5.5.0",
-    "marked": "^4.0.12",
-    "mini-css-extract-plugin": "^2.5.3",
-    "style-loader": "^3.3.1",
-    "ts-loader": "^9.2.6",
-    "typescript": "^4.5.5",
-    "webpack": "^5.67.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.3"
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.64",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-row-col": "^0.0.3",
+    "react-scripts": "5.0.1",
+    "rxjs": "^7.5.7",
+    "typescript": "^4.8.4",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "@types/marked": "^4.0.2",
-    "copy-webpack-plugin": "^10.2.4",
-    "file-loader": "^6.2.0"
+    "@types/uuid": "^8.3.4"
   }
 }
