@@ -17,5 +17,5 @@ export interface ContentsType {
 export interface PageLinkType {
   name: string;
   link: string;
-  image?: string;
+  image: string;
 }
