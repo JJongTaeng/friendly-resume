@@ -25,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "react-scripts build",
+    "deploy": "rimraf ./node_modules/.cache/gh-pages && gh-pages --branch gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +48,8 @@
     ]
   },
   "devDependencies": {
-    "@types/uuid": "^8.3.4"
+    "@types/uuid": "^8.3.4",
+    "gh-pages": "^4.0.0",
+    "rimraf": "^3.0.2"
   }
 }
