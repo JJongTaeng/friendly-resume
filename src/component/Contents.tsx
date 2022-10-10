@@ -14,8 +14,6 @@ const contentsSpan = { xs: 24, sm: 24, md: 8, lg: 8, xl: 4, xxl: 4 }
 const listSpan = { xs: 24, sm: 24, md: 16, lg: 16, xl: 20, xxl: 20 }
 
 const Contents = ({ contents, deps }: ContentsProps) => {
-
-  console.log(deps)
   return <>
     <Row>
       {
