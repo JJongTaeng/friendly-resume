@@ -6,7 +6,7 @@ import { useTitle } from "../hooks/useTitle";
 import { usePageLinks } from "../hooks/usePageLinks";
 import { v4 as uuidv4 } from 'uuid';
 import styled from "@emotion/styled";
-import profile from '../assets/profile.jpeg'
+import profile from '../assets/profile.jpg'
 
 const Heading = () => {
   const { aboutMe } = useAboutMe();
