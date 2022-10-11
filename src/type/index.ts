@@ -1,9 +1,16 @@
 export interface ResumeModelType {
   browserTitle: string;
-  title: string;
-  aboutMe: string;
-  links: PageLinkType[];
+  header: HeaderType;
   contents: ContentsType[];
+}
+
+export interface HeaderType {
+  title: string;
+  introduction: {
+    title: string;
+    description: string;
+  },
+  links: PageLinkType[];
 }
 
 export interface ContentsType {

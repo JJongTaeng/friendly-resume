@@ -6,10 +6,6 @@ const resume = getResumeData();
 
 export const browserTitle$ = () => new BehaviorSubject<string>(resume.browserTitle);
 
-export const resumeTitle$ = () => new BehaviorSubject<string>(resume.title);
-
-export const aboutMe$ = () => new BehaviorSubject(resume.aboutMe);
-
-export const pageLinks$ = () => new BehaviorSubject<PageLinkType[]>(resume.links);
+export const header$ = () => new BehaviorSubject(resume.header);
 
 export const resumeContents$ = () => new BehaviorSubject<ContentsType[]>(resume.contents);

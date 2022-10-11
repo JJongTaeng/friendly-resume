@@ -10,8 +10,8 @@ interface ContentsProps {
   deps: number;
 }
 
-const contentsSpan = { xs: 24, sm: 24, md: 8, lg: 8, xl: 4, xxl: 4 }
-const listSpan = { xs: 24, sm: 24, md: 16, lg: 16, xl: 20, xxl: 20 }
+const contentsSpan = { xs: 24, sm: 24, md: 24, lg: 6, xl: 4, xxl: 4 }
+const listSpan = { xs: 24, sm: 24, md: 24, lg: 18, xl: 20, xxl: 20 }
 
 const Contents = ({ contents, deps }: ContentsProps) => {
   return <>

@@ -26,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "react-scripts build",
+    "predeploy": "node setBrowserTitle.js && react-scripts build",
     "deploy": "rimraf ./node_modules/.cache/gh-pages && gh-pages --branch gh-pages -d build"
   },
   "eslintConfig": {
