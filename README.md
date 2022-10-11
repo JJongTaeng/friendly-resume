@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+# friendly-resume
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+JSON 기반의 이력서 페이지를 만들 수 있습니다.
 
-## Available Scripts
+만들어진 이력서를 보고싶으시면 [링크](https://jjongtaeng.github.io/friendly-resume) 로 이동하세요.
 
-In the project directory, you can run:
+## Usage
 
-### `npm start`
+프로젝트를 fork 해서 자신의 레포지토리에 저장하세요. (레포지토리 이름이 url path가 되니 원하는 레포지토리 이름으로 변경하세요.)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+모듈을 설치해야합니다. 아래 명령어를 프로젝트 루트에서 실행해주세요!
+```plain
+npm install
+``` 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+프로젝트 모듈이 모두 설치가 되면 아래 명령어로 만들어진 이력서를 볼 수 있습니다.
+```plain
+npm start
+```
 
-### `npm test`
+사용하는 IDE, 텍스트 에디터로 ./src/assets/resume.json 파일을 열고, 해당 파일의 내용을 수정해주세요.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+파일을 수정하면 개발 서버에서 바로 적용됩니다!
 
-### `npm run build`
+수정 후 아래 명령어를 입력하면 `[자신의 github name].github.io/[레포지토리 이름]` 으로 배포됩니다~ ex) https://jjongtaeng.github.io/friendly-resume
+```plain
+npm run deploy
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Profile Photo
+1. ./src/assets/profile.jpg 폴더 내에 `profile.jpg` 파일 명으로 이미지를 넣으면 프로필 설정됩니다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## resume.json
+크게 Heading 과 Contents로 구분됩니다
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Heading은 간략한 자기소개 공간입니다
 
-### `npm run eject`
+Contents는 이력, 스킬, 경험 등 나타내고 싶은 자신의 강점들을 정리해주세요.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
