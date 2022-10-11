@@ -23,16 +23,13 @@
     {
       "title": "Work Experience",
       "period": "",
-      "description": "",
       "children": [
         {
           "title": "알서포트",
           "period": "2022.01.03 ~",
-          "description": "",
           "children": [
             {
               "title": "RemoteView Box",
-              "description": "Remote View 서비스의 사용할 수 없는 환경에서 사용하기 위해 장치인 Box의 관리자 페이지를 구성했습니다. 에이전트를 등록하고, RView 서비스에서 이용합니다.",
               "period": "",
               "children": [
                 "Remote View 서비스의 사용할 수 없는 환경에서 사용하기 위해 장치인 Box의 관리자 페이지를 구성",
@@ -43,9 +40,9 @@
             },
             {
               "title": "RemoteView",
-              "description": "리모트뷰는 PC와 모바일(스마트폰) 등 기기들을 제어할 수 있는 원격제어 소프트웨어로 회사의 IT 기기 관리, 그룹관리, 재택근무 솔루션",
               "period": "",
               "children": [
+                "리모트뷰는 PC와 모바일(스마트폰) 등 기기들을 제어할 수 있는 원격제어 소프트웨어로 회사의 IT 기기 관리, 그룹관리, 재택근무 솔루션",
                 "WebConsole, WebViewer 유지보수 및 신규 기능 개발",
                 "웹콘솔에서 MQTT 통신 기반 실시간 에이전트 상태 표시",
                 "웹뷰어에서 MQTT 통신 기반 에이전트 실시간 키보드, 마우스 제어",
@@ -57,13 +54,12 @@
         {
           "title": "캐시스",
           "period": "2020.11 ~ 2021.12",
-          "description": "",
           "children": [
             {
               "title": "DC 마이크로그리드",
               "period": "",
-              "description": "태양광 발전소 ~ 주택의 전기 공급과 사용 데이터를 시각화하여 차트와 흐름도로 표현한 실시간 관제 시스템입니다.",
               "children": [
+                "태양광 발전소 ~ 주택의 전기 공급과 사용 데이터를 시각화하여 차트와 흐름도로 표현한 실시간 관제 시스템입니다.",
                 "실시간으로 데이터를 차트와 흐름도로 시각화하였습니다.",
                 "백엔드를 스프링 프레임워크를 사용하여 직접 구현하였습니다.",
                 "장치의 운전 및 정지 제어 명령 기능을 구현하였습니다.",
@@ -78,12 +74,10 @@
     {
       "title": "Other Experience",
       "period": "",
-      "description": "",
       "children": [
         {
           "title": "Simple Meeting",
           "period": "2022.06.25 ~ ",
-          "description": "",
           "link": "https://meeting.jjongtaeng.com/",
           "children": [
             "화상 미팅 웹 어플리케이션",

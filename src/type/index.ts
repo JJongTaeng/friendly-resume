@@ -15,7 +15,6 @@ export interface HeaderType {
 
 export interface ContentsType {
   title?: string;
-  description?: string;
   period?: string;
   link?: string;
   children: ContentsType[] | string[];
