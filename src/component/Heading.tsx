@@ -11,12 +11,12 @@ const Heading = () => {
 
   return (
     <Row gutter={[20, 0]}>
-      <Col {...{ xxl: 20, xl: 18, lg: 16, md: 14, sm: 12, xs: 24 }}>
+      <Col {...{ xxl: 18, xl: 18, lg: 16, md: 14, sm: 12, xs: 24 }}>
         <h1>
           { header.title }
         </h1>
       </Col>
-      <Col {...{ xxl: 4, xl: 6, lg: 8, md: 10, sm: 12, xs: 24 }}>
+      <Col {...{ xxl: 6, xl: 6, lg: 8, md: 10, sm: 12, xs: 24 }}>
         <FlexRow>
           {
             header.links?.map(({ link, name, image }) => {
