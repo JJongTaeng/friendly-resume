@@ -10,7 +10,7 @@ const Heading = () => {
   const { header } = useHeader();
 
   return (
-    <Row>
+    <Row gutter={[20, 0]}>
       <Col {...{ xxl: 20, xl: 18, lg: 16, md: 14, sm: 12, xs: 24 }}>
         <h1>
           { header.title }
@@ -20,7 +20,7 @@ const Heading = () => {
         <FlexRow>
           {
             header.links?.map(({ link, name, image }) => {
-              return <Col span={12} key={uuidv4()}>
+              return <Col span={24 / (header.links?.length || 1)} key={uuidv4()}>
                 <Link image={image} link={link} name={name}/>
               </Col>
             })
@@ -28,9 +28,11 @@ const Heading = () => {
         </FlexRow>
       </Col>
       <Col>
-        <Row gutter={[10, 20]}>
-          <Col {...{ xxl: 6, xl: 6, lg: 6, md: 8, sm: 12, xs: -1 }}>
-            <Image src={profile} alt='profile'/>
+        <Row gutter={[0, 20]}>
+          <Col {...{ xxl: 6, xl: 6, lg: 6, md: 8, sm: 12, xs: 24 }}>
+            <FlexCenter>
+              <Image src={profile} alt='profile'/>
+            </FlexCenter>
           </Col>
           <Col {...{ xxl: 18, xl: 18, lg: 18, md: 16, sm: 12, xs: 24 }}>
             <Row>
@@ -57,6 +59,15 @@ const FlexRow = styled(Row)`
 
 const Image = styled.img`
   width: 100%;
+  height: 100%;
+  max-width: 250px;
+  max-height: 250px;
+`
+
+const FlexCenter = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
 `
 
