@@ -21,7 +21,7 @@ const Contents = ({ contents, deps }: ContentsProps) => {
           if(typeof content !== 'string') {
             return (
               <Col key={uuidv4()}>
-                <Row gutter={[16, 10]}>
+                <Row gutter={[10, 10]}>
                   <Col {...contentsSpan}>
                     <Row>
                       <Col>
