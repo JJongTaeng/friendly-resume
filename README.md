@@ -106,3 +106,6 @@ npm run deploy
 `contents`는 `children`  중첩구조로 가져갈 수 있으며, 마지막 `children`은 `string` 배열로 설명을 적어주세요.
 
 수정하실 땐 꼭 npm run start로 개발서버를 실행하시고, 확인하시면서 작업해주세요.
+
+## PDF Save
+- 크롬에서 사용 시 인쇄버튼 클릭 후 PDF 저장하면 PDF 로 저장이 가능합니다! UI가 깨지거나 링크가 없어지지 않습니다.
