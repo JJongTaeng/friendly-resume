@@ -34,6 +34,17 @@
           "period": "2022.01.03 ~",
           "children": [
             {
+              "title": "RC/RV 웹뷰어 통합",
+              "period": "2022.09 ~ 2022.11",
+              "children": [
+                "프론트 팀 6명이서 진행했으며, 나눠진 2개의 웹뷰어를 새로 만들면서 통합하여 개발",
+                "RemoteView에서 사용하는 MQTT 프로토콜 연결 시퀀스 작업",
+                "마우스 이벤트, 키보드 이벤트 등 다양한 이벤트 정보 MQTT message로 에이전트에 전달 작업",
+                "에이전트에서 발생한 message reaction 작업",
+                "사용 기술 스택: React, TypeScript, Recoil, CSS-in-JS, RxJS"
+              ]
+            },
+            {
               "title": "RemoteView Box",
               "period": "",
               "children": [
@@ -80,6 +91,16 @@
       "title": "Other Experience",
       "period": "",
       "children": [
+        {
+          "title": "React flexible layout library",
+          "period": "2022.11 ~ ",
+          "link": "https://github.com/JJongTaeng/react-row-col",
+          "children": [
+            "flexible한 반응형 웹페이지를 쉽게 만들기 위해 개발",
+            "Row, Col 2개의 컴포넌트로만 간단하게 구성",
+            "React, Typescript, CSS in JS"
+          ]
+        },
         {
           "title": "Simple Meeting",
           "period": "2022.06.25 ~ ",
