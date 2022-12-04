@@ -121,15 +121,6 @@
           ]
         },
         {
-          "title": "3D-Toy-Web",
-          "period": "2021.11.01 ~",
-          "link": "https://toyweb3d.herokuapp.com/",
-          "children": [
-            "Three.js를 사용하여 3D 웹 구성",
-            "3D 환경에서의 인터랙티브 구현"
-          ]
-        },
-        {
           "title": "호서대학교",
           "period": "2014.02 ~ 2021.02",
           "children": [
