@@ -50,10 +50,10 @@
               "period": "2022.09 ~ 2022.11",
               "children": [
                 "프론트 팀 6명이서 진행했으며, 나눠진 2개의 웹뷰어를 새로 만들면서 통합하여 개발",
-                "RemoteView에서 사용하는 MQTT 프로토콜 연결 시퀀스 작업",
+                "RemoteView에서 사용하는 웹뷰어 연결 시퀀스 작업",
                 "마우스 이벤트, 키보드 이벤트 등 다양한 이벤트 정보 MQTT message로 에이전트에 전달 작업",
-                "에이전트에서 발생한 message reaction 작업",
-                "사용 기술 스택: React, TypeScript, Recoil, CSS-in-JS"
+                "에이전트에서 발생한 MQTT message reaction 작업",
+                "사용 기술 스택: React, TypeScript, Recoil, CSS-in-JS, MQTT"
               ]
             },
             {
@@ -72,9 +72,8 @@
               "children": [
                 "리모트뷰는 PC와 모바일(스마트폰) 등 기기들을 제어할 수 있는 원격제어 소프트웨어로 회사의 IT 기기 관리, 그룹관리, 재택근무 솔루션",
                 "WebConsole, WebViewer 유지보수 및 신규 기능 개발",
-                "웹콘솔에서 MQTT 통신 기반 실시간 에이전트 상태 표시",
-                "웹뷰어에서 MQTT 통신 기반 에이전트 실시간 키보드, 마우스 제어",
-                "원격PC 영상 스트리밍을 위해 WebSocket 작업"
+                "웹콘솔에서 실시간 에이전트 상태 표시 기능",
+                "웹뷰어에서 에이전트 키보드, 마우스 실시간 원격제어 기능"
               ]
             }
           ]
@@ -138,7 +137,7 @@
           "period": "2021.12.15 ~ ",
           "link": "https://jjongtaeng.github.io/intesign/",
           "children": [
-            "webcomponents API를 사용하여 React에서 사용하던 디자인 라이브러리를 Vanilla JS 디자인 라이브러리로 제작"
+            "webcomponents API를 사용하여 Vanilla JS 디자인 라이브러리로 제작"
           ]
         },
         {
@@ -157,8 +156,7 @@
           "title": "JavaScript",
           "children": [
             "ES6+ 이후 문법에 익숙하고 최신 동향에 관심이 많습니다.",
-            "Web API, DOM API를 능숙하게 다룹니다.",
-            "구현에 있어 브라우저 렌더링, 렌더 트리에 대한 내용을 고려합니다."
+            "Web API, DOM API를 능숙하게 다룹니다."
           ]
         },
         {
@@ -182,7 +180,7 @@
           "children": [
             "원하는 UI를 만들 수 있고 CSS 박스 설계에 익숙합니다.",
             "CSS 3D를 다루고 인터랙티브한 UI/UX를 구사합니다.",
-            "Sass와 같은 CSS 확장 언어를 사용합니다."
+            "SCSS와 같은 CSS 확장 언어를 사용합니다."
           ]
         }
       ]
