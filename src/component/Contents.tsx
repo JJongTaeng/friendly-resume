@@ -68,6 +68,7 @@ const Period = styled.span`
 const Title = styled.span<{deps: number}>`
   font-size: ${props => `calc(1.4rem - ${props.deps * 6}px)`};
   font-weight: bold;
+  word-break: keep-all;
 `
 
 export default Contents;
