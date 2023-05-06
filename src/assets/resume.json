@@ -38,7 +38,17 @@
               "title": "퍼플(Purple)",
               "period": "2023.02.20 ~ ",
               "children": [
-                "추후 추가 예정"
+                "퍼플 윈도우 응용프로그램에서 웹뷰로 보여주는 로비 개발 및 유지보수",
+                "기존 게임, 신규 게임 런칭 지원"
+              ]
+            },
+            {
+              "title": "redux-saga -> rtk 마이그레이션",
+              "period": "2023.04 ~ ",
+              "children": [
+                "채팅 캐릭터 명 상태 값 saga -> rtk로 변환",
+                "효과음 상태 saga -> rtk 로 변환",
+                "Socket 연결, 재연결 로직 saga -> rtk로 변환"
               ]
             }
           ]
@@ -114,22 +124,12 @@
       "period": "",
       "children": [
         {
-          "title": "React flexible layout library",
-          "period": "2022.11 ~ ",
-          "link": "https://github.com/JJongTaeng/react-row-col",
-          "children": [
-            "flexible한 반응형 웹페이지를 쉽게 만들기 위해 개발",
-            "Row, Col 2개의 컴포넌트로만 간단하게 구성",
-            "React, Typescript, CSS in JS"
-          ]
-        },
-        {
-          "title": "Simple Meeting",
+          "title": "링크에브리",
           "period": "2022.06.25 ~ ",
-          "link": "https://meeting.jjongtaeng.com/",
+          "link": "https://jjongtaeng.github.io/linkevery",
           "children": [
-            "화상 미팅 웹 어플리케이션",
-            "[Front 기술] WebRTC, SocketIO, React, TypeScript, Tailwind, Recoil",
+            "로그인 없이 누구나 쉽게 채팅, 보이스채팅, 화면공유를 즐길 수 있는 웹 어플리케이션",
+            "[Front 기술] WebRTC, SocketIO, React, TypeScript, RTK",
             "[Back 기술] NestJS, SocketIO, TypeORM, MariaDB"
           ]
         },
@@ -145,19 +145,9 @@
           ]
         },
         {
-          "title": "Intesign",
-          "period": "2021.12.15 ~ ",
-          "link": "https://jjongtaeng.github.io/intesign/",
-          "children": [
-            "webcomponents API를 사용하여 Vanilla JS 디자인 라이브러리로 제작"
-          ]
-        },
-        {
           "title": "호서대학교",
           "period": "2014.02 ~ 2021.02",
-          "children": [
-            "정보보호학과 - 졸업"
-          ]
+          "children": ["정보보호학과 - 졸업"]
         }
       ]
     },
