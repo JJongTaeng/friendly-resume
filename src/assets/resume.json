@@ -39,16 +39,8 @@
               "period": "2023.02.20 ~ ",
               "children": [
                 "퍼플 윈도우 응용프로그램에서 웹뷰로 보여주는 로비 개발 및 유지보수",
-                "기존 게임, 신규 게임 런칭 지원"
-              ]
-            },
-            {
-              "title": "redux-saga -> rtk 마이그레이션",
-              "period": "2023.04 ~ ",
-              "children": [
-                "채팅 캐릭터 명 상태 값 saga -> rtk로 변환",
-                "효과음 상태 saga -> rtk 로 변환",
-                "Socket 연결, 재연결 로직 saga -> rtk로 변환"
+                "PC / Mobile 게임 런칭 지원",
+                "redux-saga -> rtk 마이그레이션"
               ]
             }
           ]
