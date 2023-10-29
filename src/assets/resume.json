@@ -37,10 +37,12 @@
             {
               "title": "퍼플(Purple)",
               "period": "2023.02.20 ~ ",
+              "link": "https://www.ncpurple.com/",
               "children": [
                 "퍼플 윈도우 응용프로그램에서 웹뷰로 보여주는 로비 개발 및 유지보수",
                 "PC / Mobile 게임 런칭 지원",
-                "redux-saga -> rtk 마이그레이션"
+                "redux-saga -> rtk 마이그레이션",
+                "사용 기술 스택: React, RTK, RTK-Query, Socket, CSS-in-JS"
               ]
             }
           ]
@@ -51,12 +53,12 @@
           "children": [
             {
               "title": "RVS 문서 공유 기능",
-              "period": "2022.10 ~ ",
+              "period": "2022.10 ~ 2023.01",
               "children": [
-                "문서 공유 기능 담당하여 개발",
-                "뷰어(상담사)가 공유할 문서를 실행하면 호스트(고객)도 같은 PDF 뷰어로 문서 실행",
                 "pdfjs를 사용하여 PDF wrapping interface 개발 및 PDF 뷰어 컴포넌트 개발",
-                "페이지 이동, 사이드 바 이미지 추출, 문서 크기 조절 기능 담당",
+                "유저 간 문서 공유 기능의 실시간 데이터 처리",
+                "뷰어(상담사)가 공유할 문서를 실행하면 호스트(고객)도 같은 PDF 뷰어로 문서 실행",
+                "상담사가 페이지 이동, 그리기, 크기조절 등 여러 기능을 실행하면 고객 화면에도 동일하게 동작하도록 작업",
                 "사용 기술 스택: React, TypeScript, Recoil, CSS-in-JS"
               ]
             },
@@ -65,18 +67,17 @@
               "period": "2022.09 ~ 2022.11",
               "children": [
                 "프론트 팀 6명이서 진행했으며, 나눠진 2개의 웹뷰어를 새로 만들면서 통합하여 개발",
-                "RemoteView에서 사용하는 웹뷰어 연결 시퀀스 작업",
-                "마우스 이벤트, 키보드 이벤트 등 다양한 이벤트 정보 MQTT message로 에이전트에 전달 작업",
-                "에이전트에서 발생한 MQTT message reaction 작업",
-                "사용 기술 스택: React, TypeScript, Recoil, CSS-in-JS, MQTT"
+                "RemoteView에서 사용하는 웹뷰어 연결 프로토콜 작업",
+                "마우스 이벤트, 키보드 이벤트 등 다양한 이벤트 정보 실시간 처리",
+                "사용 기술 스택: React, TypeScript, Recoil, CSS-in-JS"
               ]
             },
             {
               "title": "RemoteView Box",
               "period": "2022.01 ~ 2022. 07",
               "children": [
-                "Remote View 서비스의 사용할 수 없는 환경에서 사용하기 위해 장치인 Box의 관리자 페이지를 구성",
-                "Remote View Client(원격) 에이전트 등록 페이지 작업",
+                "RemoteView 서비스의 사용할 수 없는 환경에서 사용하기 위해 장치인 Box의 관리자 페이지를 구성",
+                "RemoteView Client(원격) 에이전트 등록 페이지 작업",
                 "접속 네트워크 정보(Wi-Fi, Ethernet) 설정 페이지 작업",
                 "사용 기술 스택: React, TypeScript, Recoil, React-Query, CSS-in-JS, Storybook"
               ]
@@ -101,10 +102,10 @@
               "title": "DC 마이크로그리드",
               "period": "",
               "children": [
-                "태양광 발전소 ~ 주택의 전기 공급과 사용 데이터를 시각화하여 차트와 흐름도로 표현한 실시간 관제 시스템입니다.",
-                "실시간으로 데이터를 차트와 흐름도로 시각화하였습니다.",
-                "장치의 운전 및 정지 제어 명령 기능을 구현하였습니다.",
-                "React, Ant Design, TypeScript"
+                "태양광 발전소 ~ 주택의 전기 공급과 사용 데이터를 시각화하여 차트와 흐름도로 표현한 실시간 관제 시스템",
+                "실시간으로 데이터를 차트와 흐름도로 시각화",
+                "장치의 운전 및 정지 제어 명령 기능을 구현",
+                "사용 기술 스택: React, Ant Design, TypeScript"
               ]
             }
           ]
@@ -118,9 +119,11 @@
         {
           "title": "링크에브리",
           "period": "2022.06.25 ~ ",
-          "link": "https://jjongtaeng.github.io/linkevery",
+          "link": "https://github.com/jjongtaeng/linkevery",
           "children": [
             "로그인 없이 누구나 쉽게 채팅, 보이스채팅, 화면공유를 즐길 수 있는 웹 어플리케이션",
+            "유저간 1:N 실시간 데이터 처리",
+            "데코레이터를 사용한 DI, Emitter, Handler 사용 규격화",
             "[Front 기술] WebRTC, SocketIO, React, TypeScript, RTK",
             "[Back 기술] NestJS, SocketIO, TypeORM, MariaDB"
           ]
@@ -133,7 +136,7 @@
             "Riot API를 사용한 간단한 전적검색 기능",
             "목적: 친구들과 같이 게임 진행 후 게임에 대한 기여도를 측정하여 순위를 매기기 위함",
             "[Front 기술] React, TypeScript, CSS in JS, Recoil",
-            "[Back 기술] NestJS, SocketIO, TypeORM, MariaDB - proxy 역활"
+            "[Back 기술] NestJS, SocketIO, TypeORM, MariaDB"
           ]
         },
         {
