@@ -30,9 +30,9 @@ const Heading = () => {
       <Col>
         <Row gutter={[0, 20]}>
           <Col {...{ xxl: 6, xl: 6, lg: 6, md: 8, sm: 12, xs: 24 }}>
-            <FlexCenter>
+            <ImageContainer>
               <Image src={profile} alt='profile'/>
-            </FlexCenter>
+            </ImageContainer>
           </Col>
           <Col {...{ xxl: 18, xl: 18, lg: 18, md: 16, sm: 12, xs: 24 }}>
             <Row>
@@ -60,11 +60,11 @@ const FlexRow = styled(Row)`
 const Image = styled.img`
   width: 100%;
   height: 100%;
-  max-width: 250px;
   max-height: 250px;
+  object-fit: contain;
 `
 
-const FlexCenter = styled.div`
+const ImageContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;

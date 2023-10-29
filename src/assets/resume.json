@@ -17,11 +17,6 @@
         "name": "email",
         "link": "mailto:jjojjo141995@gmail.com",
         "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAABZCAMAAAAzQUv+AAAA4VBMVEX////qQzVChfQ0qFPFIh/7vAT5+//5/PkhpEgzf/TEJiT8wAvqQTP/vQD7uADqPCzpNybCAADpMh/oKBDEFhL99PPpLhrGIBv86+q0tTnKFwD74N71tbHwgnvXfXz//Pf+7c395LPtZl3ynJf5z8zylY99r0lRgursXlP3xcLvenPrTD/sV0tkuHiowvml06/ournNS0jIMi/TaWfhoaD+9uT93Z/8y2H8xD780XnbjIzQX1791obvzs792ZDNU1P8x1Jvdc2zP1/fuiSXW5i4O1MOp1itRGltnviDqvd+wo1I4l4TAAADpUlEQVRoge3Z2XaiQBAG4GqExESQTdBEExOXLGbPZCZ7Zpwls7z/A023uEBT3aA0JzfWpcD5Dr9/Co0A0QTX+ze6fvvprgVlzOcv9zXDeHg87CZeDp5ct9HUdb3hus9t9ep9vW5Mpl5/icmv264+n4Z7p5h9m6KRbBzMXr92m3p83OdAodq9j7NMPowOvHIsveXGqzL2wEhN/YAdCJo8q+tN90kR+1ZPu4bB3uMnN8WyrL+qyLr7DWXrL/R2UZZmrRfPGsl4CndpqXCXZt0vyPZFLKvWfkPg6tter0jWQc+rCeFHuEm3auYS2x6szA5sm4jdB9gWsdQlpr9q1n3fJBLXACHLXEK83ioLu9UL2cUF3JWyZhkXdYkZLpt1PzRJcZdlvUyvaY9nFxZ0ie3kz3rg2ESVS3s9zMkOfZOoc/P2urXIWJFLbPM0O2PTJqpd2uusrIeeSdS7NOsTWa+DE4+/QObuSvYzP3Yo7vUgtFPni10LxrrogZR2Jb1O9DjLtYwj0I6/7+Z2Rb3mepzhWj8qFdA07SeeNerSfZ3u9amdzljsWjuVyNXGDSxr3EV6PQyRjEUuzfh95mrHv5CsBS4hTqLXwYkjOhFxWcaVuYtmLXRprxdZn3p4xqhrWTvvSVcb3/JZi91Yr9Eei1yrdjRlF2661xKX7RDW61Z6V0hcmvGMjbmprKXupNeiHuPuPGPe1cbNRm6XmE7PkWTMu9Meo66mxbPOcKmcdUINzxhx41lnuplTwzPGXG08/w6uzuUyRl3t+PeuYpfPGHfnWatyUxmL3Om+VuNaVipjoRv1Wok728c5XZa1AtdCM5a5bF8Xd2toxlKX9josyDqCjOWupnVkz5rMMf1OdSV3C9qmfO/Lxjbbmyu6GwAj/qN43pv1RgAFXOhkPXNw1ulAMRfaZ8KPT8Jxzib/0y3k0qz9JVl/FF1Y0IXlek17DGrcpbKeZqzEBdgTfTTnbzbcW1ykwIVOrj8o0+uAWjdX1rGMlbkQ7GX1Ohwlv5ercWnW0jd50WPVLrQkWXMZK3XFvU70uASX7mvsEWU7fMaqXWifp7N2ztHf2JS6NGu+1z6ScQku7XU8azPEMi7DTWQtyLgUd9FrtMclutN9Lc64LHeyQ5BdUbrLei3JuEQXsn4YL8vNmrW7dtfu2l27aze3++dD3Au43PoAt3oFGx/iboL4hstz6e3S+SuAS3Or/6Ljl1uoXJJbje6WzcYl1upy3IurTXbsP6tvgUe/DtaPAAAAAElFTkSuQmCC"
-      },
-      {
-        "name": "blog",
-        "link": "https://jjongtaeng.tistory.com/",
-        "image": "data:image/png;base64,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"
       }
     ]
   },
@@ -53,7 +48,7 @@
           "children": [
             {
               "title": "RVS 문서 공유 기능",
-              "period": "2022.10 ~ 2023.01",
+              "period": "2022.09 ~ 2023.01",
               "children": [
                 "pdfjs를 사용하여 PDF wrapping interface 개발 및 PDF 뷰어 컴포넌트 개발",
                 "유저 간 문서 공유 기능의 실시간 데이터 처리",
@@ -63,22 +58,11 @@
               ]
             },
             {
-              "title": "RC/RV 웹뷰어 통합",
-              "period": "2022.09 ~ 2022.11",
-              "children": [
-                "프로젝트 별로 나눠진 2개의 웹뷰어를 새로 만들면서 통합하여 개발",
-                "RemoteView에서 사용하는 웹뷰어 연결 프로토콜 작업",
-                "마우스 이벤트, 키보드 이벤트 등 다양한 이벤트 정보 실시간 처리",
-                "사용 기술 스택: React, TypeScript, Recoil, CSS-in-JS"
-              ]
-            },
-            {
               "title": "RemoteView Box",
               "period": "2022.01 ~ 2022. 07",
               "children": [
                 "RemoteView 서비스의 사용할 수 없는 환경에서 사용하기 위해 장치인 Box의 관리자 페이지를 구성",
-                "RemoteView Client(원격) 에이전트 등록 페이지 작업",
-                "접속 네트워크 정보(Wi-Fi, Ethernet) 설정 페이지 작업",
+                "RemoteView 에이전트 등록을 위한 각종 설정 정보 및 조회 정보 관리자 페이지",
                 "사용 기술 스택: React, TypeScript, Recoil, React-Query, CSS-in-JS, Storybook"
               ]
             },
