@@ -107,7 +107,7 @@
           "children": [
             "로그인 없이 누구나 쉽게 채팅, 보이스채팅, 화면공유를 즐길 수 있는 웹 어플리케이션",
             "유저간 1:N 실시간 데이터 처리",
-            "데코레이터를 사용한 DI, Emitter, Handler 사용 규격화",
+            "데코레이터를 사용하여 Emitter, Handler 사용 구조화",
             "[Front 기술] WebRTC, SocketIO, React, TypeScript, RTK",
             "[Back 기술] NestJS, SocketIO, TypeORM, MariaDB"
           ]
