@@ -101,6 +101,26 @@
       "period": "",
       "children": [
         {
+          "title": "국비교육 강사",
+          "period": "2024.03.23",
+          "link": "https://jjongtaeng.tistory.com/14",
+          "children": [
+            "모블 평생교육원에서 진행한 Java 백엔드 교육과정 중 JavaScript 특강 강의 진행"
+          ]
+        },
+        {
+          "title": "호서대학교",
+          "period": "2014.02 ~ 2021.02",
+          "children": ["정보보호학과 - 졸업"]
+        }
+      ]
+    },
+
+    {
+      "title": "Personal project",
+      "period": "",
+      "children": [
+        {
           "title": "링크에브리",
           "period": "2022.06.25 ~ ",
           "link": "https://github.com/jjongtaeng/linkevery",
@@ -122,11 +142,6 @@
             "[Front 기술] React, TypeScript, CSS in JS, Recoil",
             "[Back 기술] NestJS, SocketIO, TypeORM, MariaDB"
           ]
-        },
-        {
-          "title": "호서대학교",
-          "period": "2014.02 ~ 2021.02",
-          "children": ["정보보호학과 - 졸업"]
         }
       ]
     },
