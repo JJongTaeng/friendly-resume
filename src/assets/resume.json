@@ -36,7 +36,6 @@
               "children": [
                 "퍼플 윈도우 응용프로그램에서 웹뷰로 보여주는 로비 개발 및 유지보수",
                 "PC / Mobile 게임 런칭 지원",
-                "redux-saga -> rtk 마이그레이션",
                 "사용 기술 스택: React, RTK, RTK-Query, Socket, CSS-in-JS"
               ]
             }
