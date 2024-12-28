@@ -125,7 +125,7 @@
           "period": "2024.08.25 ~ ",
           "link": "https://porongcard.com",
           "children": [
-            "실제 운영하는 서비스로 모바일 청첩장을 만들어 주는 웹 어플리케이션",
+            "모바일 청첩장을 만들어 주는 웹 어플리케이션",
             "Auth.js를 사용해 네이버 로그인 구현",
             "스마트스토어 API 를 연동",
             "[기술스택] NextJS, TypeScript, MUI, zustand, SWR"
