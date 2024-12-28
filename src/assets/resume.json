@@ -141,17 +141,6 @@
             "[Front 기술] WebRTC, SocketIO, React, TypeScript, RTK",
             "[Back 기술] NestJS, SocketIO, TypeORM, MariaDB"
           ]
-        },
-        {
-          "title": "LoL 칼바람 나락 순위",
-          "period": "2022.11.26 ~ 2022.12.09",
-          "link": "https://jjongtaeng.github.io/kalbaram-ranking",
-          "children": [
-            "Riot API를 사용한 간단한 전적검색 기능",
-            "목적: 친구들과 같이 게임 진행 후 게임에 대한 기여도를 측정하여 순위를 매기기 위함",
-            "[Front 기술] React, TypeScript, CSS in JS, Recoil",
-            "[Back 기술] NestJS, SocketIO, TypeORM, MariaDB"
-          ]
         }
       ]
     },
