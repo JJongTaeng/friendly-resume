@@ -30,7 +30,12 @@
           "period": "2023.02 ~ ",
           "children": [
             {
-              "title": "퍼플(Purple)",
+              "title": "퍼플 파트너스",
+              "period": "2025.03 ~ ",
+              "children": ["퍼플에서 사용하는 운영툴 개발 및 유지보수"]
+            },
+            {
+              "title": "퍼플 게임로비",
               "period": "2023.02.20 ~ ",
               "link": "https://www.ncpurple.com/",
               "children": [
