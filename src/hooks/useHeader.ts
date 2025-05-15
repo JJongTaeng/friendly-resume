@@ -1,24 +1,27 @@
 import { useEffect, useState } from "react";
-import { header$ } from "../store/resumeStore";
 import { HeaderType } from "../type";
+import { getResumeData } from "../api";
 
 export const useHeader = () => {
   const [header, setHeader] = useState<HeaderType>({
-    title: '',
+    title: "",
     introduction: {
-      title: '',
-      description: '',
+      title: "",
+      description: "",
     },
-    links: [{
-      link: '',
-      image: '',
-      name: '',
-    }]
+    links: [
+      {
+        link: "",
+        image: "",
+        name: "",
+      },
+    ],
   });
 
   useEffect(() => {
-    header$().subscribe(setHeader);
+    const header = getResumeData().header;
+    setHeader(header);
   }, []);
 
   return { header };
-}
+};
