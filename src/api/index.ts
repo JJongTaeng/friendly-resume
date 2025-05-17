@@ -1,4 +1,4 @@
-import resume from "../assets/resume-en.json";
+import resume from "../assets/resume.json";
 import { ResumeModelType } from "../type";
 
 type GetResumeDataFunctionType = () => ResumeModelType;
